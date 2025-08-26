@@ -1,15 +1,3 @@
-'''
-create a class named player with attributes like jersey number, name, runs scored, wickets taken, team name.
-Create objects of the class for at least 5 players of 5 different teams of IPL2025.
-Store these objects in a dictionary with team names as keys and list of player objects as values.   
-Perform the following tasks:
-1. Display all players of a team based on user input.
-2. Find all batsmen who scored more than 1000 runs in a team based on user input.
-3. Find all bowlers who took more than 20 wickets in a team based on user input.
-4. Find all players whose name contains 'r' in a team based on user input.
-
-'''
-
 class player:
     def __init__(self,jn,name,runs,wickets,team):
         self.jn=jn
@@ -155,4 +143,5 @@ if team_name in IPL2025_DB:
             player.display()
 else:
     print("Team not found in IPL 2025 database.")
+
 
